@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import (BotCommandScopeAllPrivateChats, BotCommand, ReplyKeyboardMarkup, KeyboardButton,
                            ReplyKeyboardRemove)
 
-TOKEN = '6765117166:AAGrY69ewEGo_e9P-dwfW_CylyTyxuv_oKQ'
+TOKEN = ''
 ALLOWED_UPDATES = ['message, edited_message']
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
